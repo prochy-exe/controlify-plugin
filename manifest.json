@@ -1,0 +1,12 @@
+{
+    "name": "controlify-plugin",
+    "description": "A plugin for Spicetify that connects to Controlify",
+    "preview": "screenshots/screenshot.png",
+    "main": "dist/controlify-plugin.js",
+    "readme": "README.md",
+    "authors": [
+        { "name": "prochy-exe", "url": "https://github.com/prochy-exe" }
+    ],
+    "tags": ["control", "utility"],
+    "branch": "main"
+}
