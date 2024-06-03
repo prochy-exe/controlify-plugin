@@ -110,7 +110,7 @@ async function main() {
                 const eventType = getEventType(controlifyEvent);
                 switch (eventType) {
                     case 'setVolume':
-                        if (controlifyEvent.setVolume) {
+                        if (controlifyEvent.setVolume != null) {
                             console.log("Setting volume to", controlifyEvent.setVolume);
                             Spicetify.Player.setVolume(controlifyEvent.setVolume);
                         }
